@@ -1,0 +1,151 @@
+/* General reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    padding-top: 50px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .main-nav a:hover {
+    color: #f39c12;
+  }
+  
+  /* Posts Section */
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Category List */
+  .category-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-list ul li {
+    margin-bottom: 10px;
+  }
+  
+  .category-list ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .category-list ul li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #181818;
+    color: #eaeaea;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #222;
+  }
+  
+  body.dark-mode .main-nav a {
+    color: #eaeaea;
+  }
+  
+  body.dark-mode .main-nav a:hover {
+    color: #f39c12;
+  }
+  
+  body.dark-mode .posts {
+    background-color: #333;
+    color: #eaeaea;
+  }
+  
+  body.dark-mode aside {
+    background-color: #333;
+    color: #eaeaea;
+  }
+  
+  body.dark-mode .category-list ul li a {
+    color: #1e90ff;
+  }
+  
+  body.dark-mode footer {
+    background-color: #222;
+  }
+  
+  /* Toggle Button */
+  .toggle-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
